@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dc-button/static/css/main.b4c7be1a.chunk.css",
+    "main.js": "/dc-button/static/js/main.93417177.chunk.js",
+    "main.js.map": "/dc-button/static/js/main.93417177.chunk.js.map",
+    "runtime-main.js": "/dc-button/static/js/runtime-main.f8e08006.js",
+    "runtime-main.js.map": "/dc-button/static/js/runtime-main.f8e08006.js.map",
+    "static/js/2.c80e4e79.chunk.js": "/dc-button/static/js/2.c80e4e79.chunk.js",
+    "static/js/2.c80e4e79.chunk.js.map": "/dc-button/static/js/2.c80e4e79.chunk.js.map",
+    "index.html": "/dc-button/index.html",
+    "precache-manifest.a2ec645187ace47610da08d36b4112d8.js": "/dc-button/precache-manifest.a2ec645187ace47610da08d36b4112d8.js",
+    "service-worker.js": "/dc-button/service-worker.js",
+    "static/css/main.b4c7be1a.chunk.css.map": "/dc-button/static/css/main.b4c7be1a.chunk.css.map",
+    "static/js/2.c80e4e79.chunk.js.LICENSE.txt": "/dc-button/static/js/2.c80e4e79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8e08006.js",
+    "static/js/2.c80e4e79.chunk.js",
+    "static/css/main.b4c7be1a.chunk.css",
+    "static/js/main.93417177.chunk.js"
+  ]
+}
