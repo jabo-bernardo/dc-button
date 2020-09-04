@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+$disabled-color: #9E9E9E;
+$default-color: #E0E0E0;
+$primary-color: #3D5AFE;
+$secondary-color: #455A64;
+$danger-color: #D32F2F;
+
+$black-color: #3F3F3F;
+$shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+
+.jabo-button {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-family: 'Poppins', 'Roboto', 'Helvetica';
+	background: $default-color;
+	font-weight: 500;
+	border: none;
+	color: $black-color;
+	box-shadow: $shadow;
+	outline: none;
+	cursor: pointer;
+	border-radius: 6px;
+	margin: 0.25rem;
+	display: flex;
+	align-items: center;
+
+	span {
+		font-size: 1.2rem;
+
+		&.start_icon {
+			margin-right: 0.5rem;
+		}
+
+		&.end_icon {
+			margin-left: 0.5rem;
+		}
+	}
+
+	&:hover {
+		background: darken($color: $default-color, $amount: 10);
+	}
+
+	&.disableShadow {
+		box-shadow: none;
+		color: white;
+		background: $primary-color;
+		&:hover {
+			background: darken($color: $primary-color, $amount: 10);
+		}
+	}
+
+	&.outline {
+		background: transparent;
+		border: 1px solid $primary-color;
+		color: $primary-color;
+		box-shadow: none;
+		&:hover {
+			background: rgba(41, 98, 255, 0.1);
+		}
+	}
+
+	&.text {
+		background: transparent;
+		border: none;
+		color: $primary-color;
+		box-shadow: none;
+		&:hover {
+			background: rgba(41, 98, 255, 0.1);
+		}
+		&.disabled {
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+
+	&.sm {
+		padding: 6px 12px;
+	}
+
+	&.md {
+		padding: 0.5rem 1rem;	
+	}
+
+	&.lg {
+		padding: 11px 22px;
+	}
+
+	&.disabled {
+		color: $disabled-color;
+		&:hover {
+			background: $default-color;
+		}
+	}
+
+	&.color-default {
+		background: $default-color;
+		&:hover {
+			background: darken($color: $default-color, $amount: 10);
+		}
+	}
+
+	&.color-primary {
+		color: white;
+		background: $primary-color;
+		&:hover {
+			background: darken($color: $primary-color, $amount: 10);
+		}
+	}
+
+	&.color-secondary {
+		color: white;
+		background: $secondary-color;
+		&:hover {
+			background: darken($color: $secondary-color, $amount: 10);
+		}
+	}
+
+	&.color-danger {
+		color: white;
+		background: $danger-color;
+		&:hover {
+			background: darken($color: $danger-color, $amount: 10);
+		}
+	}
+}
